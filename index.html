@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="n-我的第一篇博客文文章" class="article article-type-n" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E6%96%87%E7%AB%A0/" class="article-date">
+  <time datetime="2020-01-17T06:58:03.000Z" itemprop="datePublished">2020-01-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/01/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E6%96%87%E7%AB%A0/">我的第一篇博客文文章</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="1-MQ-（Message-Queue）应用场景切换"><a href="#1-MQ-（Message-Queue）应用场景切换" class="headerlink" title="1 MQ （Message Queue）应用场景切换"></a>1 MQ （Message Queue）应用场景切换</h1><p>消息队列中间件是分布式系统中的重要组件，主要解决异步消息，应用解耦，流量削锋等问题，从而实现高性能，高可用，可伸缩和最终一致性的架构</p>
+<p>使用较多的消息队列有 ActiveMQ，RabbitMQ，Kafka，MetaMQ 等</p>
+<h2 id="1-1-异步处理"><a href="#1-1-异步处理" class="headerlink" title="1.1 异步处理"></a>1.1 异步处理</h2><p>详情 B站 收藏 项目 详细队列使用详情视频</p>
+<h2 id="1-2-应用解耦"><a href="#1-2-应用解耦" class="headerlink" title="1.2  应用解耦"></a>1.2  应用解耦</h2><p>详情 B站 收藏 项目 详细队列使用详情视频</p>
+<h2 id="1-3-流量削锋"><a href="#1-3-流量削锋" class="headerlink" title="1.3 流量削锋"></a>1.3 流量削锋</h2><p>流量削锋也是消息队列中的常用场景，一般在秒杀或团购活动中广泛使用</p>
+<p>应用场景： 秒杀活动，一般会因为流量过大，导致流量暴增，应用垮掉。为了解决这个问题，一般需要在应用前端假如消息队列。</p>
+<p>详情 B站 收 藏 项目 详细队列使用详情视频</p>
+<h1 id="2-JMS-消息模型"><a href="#2-JMS-消息模型" class="headerlink" title="2. JMS 消息模型"></a>2. JMS 消息模型</h1><p>详情 B站 收 藏 项目 详细队列使用详情视频</p>
+<h2 id="Windows启动ActiveMQ服务"><a href="#Windows启动ActiveMQ服务" class="headerlink" title="Windows启动ActiveMQ服务"></a>Windows启动ActiveMQ服务</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">ActiveMQ windows上启动</span><br><span class="line"></span><br><span class="line">C:\Users\王骞&gt;e:</span><br><span class="line"></span><br><span class="line">e:\&gt;cd ActiveMQ\apache-activemq-5.15.11</span><br><span class="line"></span><br><span class="line">e:\ActiveMQ\apache-activemq-5.15.11&gt;bin\activemq start</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-ActiveMQ-Topic-消息失败重发"><a href="#3-ActiveMQ-Topic-消息失败重发" class="headerlink" title="3. ActiveMQ Topic 消息失败重发"></a>3. ActiveMQ Topic 消息失败重发</h1><h3 id="编写消息的发送方-—-生产者"><a href="#编写消息的发送方-—-生产者" class="headerlink" title="编写消息的发送方 — 生产者"></a>编写消息的发送方 — 生产者</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">public class ActiveMQTest &#123;</span><br><span class="line">    &#x2F;&#x2F;编写消息的发送方 ---- 生产者</span><br><span class="line">    @Test</span><br><span class="line">    public void test1() throws JMSException &#123;</span><br><span class="line">        &#x2F;&#x2F;创建连接工厂对象</span><br><span class="line">        ActiveMQConnectionFactory connectionFactory &#x3D; new ActiveMQConnectionFactory(&quot;tcp:&#x2F;&#x2F;localhost:61616&quot;);</span><br><span class="line">        &#x2F;&#x2F;从工厂中获取一个链接对象</span><br><span class="line">        Connection connection &#x3D; connectionFactory.createConnection();</span><br><span class="line">        &#x2F;&#x2F;链接MQ服务</span><br><span class="line">        connection.start();</span><br><span class="line">        &#x2F;&#x2F;获取session对象</span><br><span class="line">        Session session &#x3D; connection.createSession(false, Session.AUTO_ACKNOWLEDGE);</span><br><span class="line">        &#x2F;&#x2F;通过session对象创建Topic</span><br><span class="line">        Topic topic &#x3D; session.createTopic(&quot;itheimaTopic&quot;);</span><br><span class="line">        &#x2F;&#x2F;通过session对象创建消息的发送者</span><br><span class="line">        MessageProducer producer &#x3D; session.createProducer(topic);</span><br><span class="line">        &#x2F;&#x2F;通过session创建消息对象</span><br><span class="line">        TextMessage message &#x3D; session.createTextMessage(&quot;ping&quot;);</span><br><span class="line">        &#x2F;&#x2F;发送消息</span><br><span class="line">        producer.send(message);</span><br><span class="line">        &#x2F;&#x2F;关闭相关资源</span><br><span class="line">        producer.close();</span><br><span class="line">        session.close();</span><br><span class="line">        connection.close();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="编写消息的接收方-—-消费者（跟生产方类似-在生产方的类下边修改下代码）"><a href="#编写消息的接收方-—-消费者（跟生产方类似-在生产方的类下边修改下代码）" class="headerlink" title="编写消息的接收方 —- 消费者（跟生产方类似 在生产方的类下边修改下代码）"></a>编写消息的接收方 —- 消费者（跟生产方类似 在生产方的类下边修改下代码）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;编写消息的接收方 ---- 消费者</span><br><span class="line"> @Test</span><br><span class="line"> public void test2() throws JMSException &#123;</span><br><span class="line">     &#x2F;&#x2F;创建连接工厂对象</span><br><span class="line">     ActiveMQConnectionFactory connectionFactory &#x3D; new ActiveMQConnectionFactory(&quot;tcp:&#x2F;&#x2F;localhost:61616&quot;);</span><br><span class="line">     &#x2F;&#x2F;从工厂中获取一个链接对象</span><br><span class="line">     Connection connection &#x3D; connectionFactory.createConnection();</span><br><span class="line">     &#x2F;&#x2F;链接MQ服务</span><br><span class="line">     connection.start();</span><br><span class="line">     &#x2F;&#x2F;获取session对象</span><br><span class="line">     final Session session &#x3D; connection.createSession(false, Session.CLIENT_ACKNOWLEDGE);</span><br><span class="line">     &#x2F;&#x2F;通过session对象创建Topic</span><br><span class="line">     Topic topic &#x3D; session.createTopic(&quot;itheimaTopic&quot;);</span><br><span class="line">     &#x2F;&#x2F;通过session对象创建消息的消费者</span><br><span class="line">     MessageConsumer consumer &#x3D; session.createConsumer(topic);</span><br><span class="line">     &#x2F;&#x2F;指定消息的监听器</span><br><span class="line">     consumer.setMessageListener(new MessageListener() &#123;</span><br><span class="line">         &#x2F;&#x2F;当监听的topic中存在消息，这个方法自动执行</span><br><span class="line">         public void onMessage(Message message) &#123;</span><br><span class="line">             TextMessage textMessage &#x3D; (TextMessage)message;</span><br><span class="line">             try &#123;</span><br><span class="line">                 if (textMessage.getText().equals(&quot;ping&quot;))&#123;</span><br><span class="line">                     System.out.println(&quot;消费者接收到了消息&quot;+textMessage.getText());</span><br><span class="line">                     &#x2F;&#x2F;客户端手动应答</span><br><span class="line">                     message.acknowledge();</span><br><span class="line">                 &#125;else&#123;</span><br><span class="line">                     System.out.println(&quot;消息处理失败了。。。&quot;);</span><br><span class="line">                     &#x2F;&#x2F;通知MQ进行消息重发，最多可以重发6次</span><br><span class="line">                     session.recover();</span><br><span class="line">                     &#x2F;&#x2F;模拟消息处理失败</span><br><span class="line">                     int i&#x3D; 1&#x2F;0;</span><br><span class="line"></span><br><span class="line">                 &#125;</span><br><span class="line">             &#125; catch (JMSException e) &#123;</span><br><span class="line">                 e.printStackTrace();</span><br><span class="line">             &#125;</span><br><span class="line">         &#125;</span><br><span class="line">     &#125;);</span><br><span class="line">     &#x2F;&#x2F;不让线程死掉 模拟web</span><br><span class="line">     while (true)&#123;</span><br><span class="line"></span><br><span class="line">     &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="ActiveMQ-Topic-消息持久化订阅（未进行持久化效果展示）"><a href="#ActiveMQ-Topic-消息持久化订阅（未进行持久化效果展示）" class="headerlink" title="ActiveMQ Topic 消息持久化订阅（未进行持久化效果展示）"></a>ActiveMQ Topic 消息持久化订阅（未进行持久化效果展示）</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line">public class TopicPersistentTest &#123;</span><br><span class="line">    &#x2F;&#x2F;编写消息的发送方 ---- 生产者</span><br><span class="line">    @Test</span><br><span class="line">    public void test1() throws JMSException &#123;</span><br><span class="line">        &#x2F;&#x2F;创建连接工厂对象</span><br><span class="line">        ActiveMQConnectionFactory connectionFactory &#x3D; new ActiveMQConnectionFactory(&quot;tcp:&#x2F;&#x2F;localhost:61616&quot;);</span><br><span class="line">        &#x2F;&#x2F;从工厂中获取一个链接对象</span><br><span class="line">        Connection connection &#x3D; connectionFactory.createConnection();</span><br><span class="line">        &#x2F;&#x2F;链接MQ服务</span><br><span class="line">        connection.start();</span><br><span class="line">        &#x2F;&#x2F;获取session对象</span><br><span class="line">        Session session &#x3D; connection.createSession(false, Session.AUTO_ACKNOWLEDGE);</span><br><span class="line">        &#x2F;&#x2F;通过session对象创建Topic</span><br><span class="line">        Topic topic &#x3D; session.createTopic(&quot;itheimaTopic&quot;);</span><br><span class="line">        &#x2F;&#x2F;通过session对象创建消息的发送者</span><br><span class="line">        MessageProducer producer &#x3D; session.createProducer(topic);</span><br><span class="line">        &#x2F;&#x2F;通过session创建消息对象</span><br><span class="line">        TextMessage message &#x3D; session.createTextMessage(&quot;ping&quot;);</span><br><span class="line">        &#x2F;&#x2F;发送消息</span><br><span class="line">        producer.send(message);</span><br><span class="line">        &#x2F;&#x2F;关闭相关资源</span><br><span class="line">        producer.close();</span><br><span class="line">        session.close();</span><br><span class="line">        connection.close();</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F;编写消息的接收方 ---- 消费者</span><br><span class="line">    @Test</span><br><span class="line">    public void teset2() throws JMSException &#123;</span><br><span class="line">        &#x2F;&#x2F;创建连接工厂对象</span><br><span class="line">        ActiveMQConnectionFactory connectionFactory &#x3D; new ActiveMQConnectionFactory(&quot;tcp:&#x2F;&#x2F;localhost:61616&quot;);</span><br><span class="line">        &#x2F;&#x2F;从工厂中获取一个链接对象</span><br><span class="line">        Connection connection &#x3D; connectionFactory.createConnection();</span><br><span class="line">        &#x2F;&#x2F;链接MQ服务</span><br><span class="line">        connection.start();</span><br><span class="line">        &#x2F;&#x2F;获取session对象</span><br><span class="line">        final Session session &#x3D; connection.createSession(false, Session.AUTO_ACKNOWLEDGE);</span><br><span class="line">        &#x2F;&#x2F;通过session对象创建Topic</span><br><span class="line">        Topic topic &#x3D; session.createTopic(&quot;itheimaTopic&quot;);</span><br><span class="line">        &#x2F;&#x2F;通过session对象创建消息的消费者</span><br><span class="line">        MessageConsumer consumer &#x3D; session.createConsumer(topic);</span><br><span class="line">        &#x2F;&#x2F;指定消息的监听器</span><br><span class="line">        consumer.setMessageListener(new MessageListener() &#123;</span><br><span class="line">            &#x2F;&#x2F;当监听的topic中存在消息，这个方法自动执行</span><br><span class="line">            public void onMessage(Message message) &#123;</span><br><span class="line">                TextMessage textMessage &#x3D; (TextMessage)message;</span><br><span class="line">                try &#123;</span><br><span class="line">                    System.out.println(&quot;消费者接收到了消息&quot;+textMessage.getText());</span><br><span class="line">                &#125; catch (JMSException e) &#123;</span><br><span class="line">                    e.printStackTrace();</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">        &#x2F;&#x2F;不让线程死掉 模拟web</span><br><span class="line">        while (true)&#123;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Topic消息持久化订阅（持久化到文件）"><a href="#Topic消息持久化订阅（持久化到文件）" class="headerlink" title="Topic消息持久化订阅（持久化到文件）"></a>Topic消息持久化订阅（持久化到文件）</h2><p>1.先看默认的activemq.xml配置文件</p>
+<p>2.修改生产方send方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">producer.send(message,DeliveryMode.PERSISTENT,1,1000*60*60*24);</span><br></pre></td></tr></table></figure>
+
+<p>3.在消费方获取一个链接对象下边 设置客户端ID 修改通过session对象创建消息的消费者</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"> &#x2F;&#x2F;设置客户端ID</span><br><span class="line">connection.setClientID(&quot;client-1&quot;);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;客户端持久化订阅</span><br><span class="line">       TopicSubscriber consumer&#x3D; session.createDurableSubscriber(topic, &quot;client1-sub&quot;);</span><br></pre></td></tr></table></figure>
+
+<p>以上是第一种方式持久化</p>
+<h5 id="详情参考-B站-我的收藏-项目-传智博客的消息队列MQ使用详情视频-P5"><a href="#详情参考-B站-我的收藏-项目-传智博客的消息队列MQ使用详情视频-P5" class="headerlink" title="详情参考 B站 我的收藏 项目 传智博客的消息队列MQ使用详情视频 P5"></a>详情参考 B站 我的收藏 项目 传智博客的消息队列MQ使用详情视频 P5</h5><h2 id="持久化到数据库（mysql）这是第二种方式"><a href="#持久化到数据库（mysql）这是第二种方式" class="headerlink" title="持久化到数据库（mysql）这是第二种方式"></a>持久化到数据库（mysql）这是第二种方式</h2><p>1.修改activemq.xml配置文件</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">persistenceAdapter</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">jdbcPersistenceAdapter</span> <span class="attr">dataDirectory</span>=<span class="string">"$&#123;activemq.base&#125;/data"</span> <span class="attr">dataSource</span>=<span class="string">"#derby-ds"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">persistenceAdapter</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>…</p>
+<p>详情参考 B站 我的收藏 项目 传智博客的消息队列MQ使用详情视频 P6</p>
+<h2 id="Zookeeper-activeMQ集群（P7）"><a href="#Zookeeper-activeMQ集群（P7）" class="headerlink" title="Zookeeper+activeMQ集群（P7）"></a>Zookeeper+activeMQ集群（P7）</h2><p>共9个视频！！！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/01/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E6%96%87%E7%AB%A0/" data-id="ck5hteucv0000pkr0c0dob9u7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/17/hello-world/" class="article-date">
+  <time datetime="2020-01-17T06:49:24.077Z" itemprop="datePublished">2020-01-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/01/17/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/01/17/hello-world/" data-id="ck5hteud10001pkr0fg2xeyng" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/01/17/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E6%96%87%E7%AB%A0/">我的第一篇博客文文章</a>
+          </li>
+        
+          <li>
+            <a href="/2020/01/17/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
